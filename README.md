@@ -9,3 +9,5 @@ FileContainingLongNumbers:  Write a shell script which prints all the filenames 
 maxLengthString: Shell script which displays on the screen the longest word given as parameter
 
 renameAfterCHMOD: Shell script which displays all files which has writting permission for writing for owner, group and user from a directory given as parameter
+
+numbersAndLines : Shell script which, for all the files given as parameters counts the numbers of lines and for all the numbers given as parameters compute their sum. 
