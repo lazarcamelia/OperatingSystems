@@ -4,6 +4,9 @@ declare -i suma=0
 declare -i noOfWords=0
 
 number='^[0-9]+$'
+if ! [[ $1 ]]; then
+  echo "No parameters"
+fi
 while [ $1 ]; do
     if [[ -f $1 ]]; then
 	noOfWords=$noOfWords+`wc -w < $1`
