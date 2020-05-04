@@ -14,4 +14,6 @@ else
     echo "The argument is not a directory"
 fi
 
-echo "The avg of the no of lines is `expr $sumLines / $numberOfFiles`"
+avg=$(echo "$sumLines / $numberOfFiles" | bc -l)
+#echo "The avg of the no of lines is `expr $sumLines / $numberOfFiles`"
+echo $avg
