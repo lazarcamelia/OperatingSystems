@@ -13,3 +13,19 @@ renameAfterCHMOD: Shell script which displays all files which has writting permi
 numbersAndLines : Shell script which, for all the files given as parameters counts the numbers of lines and for all the numbers given as parameters compute their sum. 
 
 directoriesReport: shell script which get an unknown number of directories in command line. The script uses an external file containing extensions. The script will write into report.txt for every extension the total number of files from the directories and sub-directories having that given extension. 
+
+avgLinesInFile: shell script which prints the average number of lines in all the files contained in a directory given at the command line
+
+directoriesAndFiles:
+
+filesAndDirectoriesFromCommand:
+
+first3Lines:
+
+lineFrecv:
+
+peopleWithBirthdays:
+
+raportWithLibrariesInC:
+
+sortedRaport: 
