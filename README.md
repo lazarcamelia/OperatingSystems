@@ -31,3 +31,4 @@ raportWithLibrariesInC:
 sortedRaport: 
 
 cFiles.sh: Find recursively in a directory all ".c" files having more than 500 lines. Stop after finding 2 such files.
+logFiles: Find recursively in a directory, all the files with the extension ".log" and sort their lines (replace the original file with the sorted content).
