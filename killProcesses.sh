@@ -8,3 +8,5 @@ while true; do
        done <<< $processes_pids
     done
 done
+
+#ps aux | grep -i <process_name>
